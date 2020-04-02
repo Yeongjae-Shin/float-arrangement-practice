@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+border: 2px solid gray;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 40px;
+}
+
+.col.w30 {
+border: 2px dotted red;
+display: inline-block;
+width: 30%;
+height: 100%;
+}
+
+.col.w30 .row.h40 {
+height: 40%;
+border: 2px dotted blue;
+}
+
+.col.w30 .row.h20 {
+height: 20%;
+border: 2px dotted blue;
+}
+
+.col.w70 {
+border: 2px dotted red;
+float: right;
+width: 70%;
+height: 100%;
+}
+
+.col.w70 .row.h20 {
+height: 20%;
+border: 2px dotted blue;
+}
+
+.col.w70 .row.h80 {
+height: 80%;
+border: 2px dotted blue;
+}
